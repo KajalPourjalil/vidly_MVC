@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "vidly_MVC/1.0.0": {
+        "runtime": {
+          "vidly_MVC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "vidly_MVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
