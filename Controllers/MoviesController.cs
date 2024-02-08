@@ -7,8 +7,10 @@ namespace vidly_MVC
             var movie = new Movie() {
                 nameof = "Shrek"
             };
-            return View();
+            return View(movie);
         }
     }
+
+    
     
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\vscode\\vidly_MVC\\vidly_MVC.csproj": {}
+    "h:\\vscode\\vidly_MVC\\vidly_MVC.csproj": {}
   },
   "projects": {
-    "H:\\vscode\\vidly_MVC\\vidly_MVC.csproj": {
+    "h:\\vscode\\vidly_MVC\\vidly_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\vscode\\vidly_MVC\\vidly_MVC.csproj",
+        "projectUniqueName": "h:\\vscode\\vidly_MVC\\vidly_MVC.csproj",
         "projectName": "vidly_MVC",
-        "projectPath": "H:\\vscode\\vidly_MVC\\vidly_MVC.csproj",
+        "projectPath": "h:\\vscode\\vidly_MVC\\vidly_MVC.csproj",
         "packagesPath": "C:\\Users\\tivadigi\\.nuget\\packages\\",
-        "outputPath": "H:\\vscode\\vidly_MVC\\obj\\",
+        "outputPath": "h:\\vscode\\vidly_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tivadigi\\AppData\\Roaming\\NuGet\\NuGet.Config"

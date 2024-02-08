@@ -1,10 +1,12 @@
-﻿namespace vidly_MVC;
-
-public class Movie
+﻿namespace vidly_MVC
 {
-    public int Id { get; set;}
-    public string Name {get; set;}
-
+    public class Movie
+    {
+        public int Id { get; set;}
+        public required string Name {get; set;}
+    }
 }
+
+
 
 // /movies/random
