@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "h:\\vscode\\vidly_MVC\\vidly_MVC.csproj": {}
+    "H:\\vscode\\vidly_MVC\\vidly_MVC.csproj": {}
   },
   "projects": {
-    "h:\\vscode\\vidly_MVC\\vidly_MVC.csproj": {
+    "H:\\vscode\\vidly_MVC\\vidly_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\vscode\\vidly_MVC\\vidly_MVC.csproj",
+        "projectUniqueName": "H:\\vscode\\vidly_MVC\\vidly_MVC.csproj",
         "projectName": "vidly_MVC",
-        "projectPath": "h:\\vscode\\vidly_MVC\\vidly_MVC.csproj",
+        "projectPath": "H:\\vscode\\vidly_MVC\\vidly_MVC.csproj",
         "packagesPath": "C:\\Users\\tivadigi\\.nuget\\packages\\",
-        "outputPath": "h:\\vscode\\vidly_MVC\\obj\\",
+        "outputPath": "H:\\vscode\\vidly_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tivadigi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tivadigi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
