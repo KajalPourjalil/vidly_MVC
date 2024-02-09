@@ -12,11 +12,9 @@ namespace StudentPortal.Web.Controllers
         }
 
         [HttpPost]
-
         public IActionResult Add(AddStudentViewModel viewModel)
         {
             return View();
-
         }
     }
 }
