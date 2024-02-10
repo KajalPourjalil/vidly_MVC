@@ -14,7 +14,13 @@ namespace StudentPortal.Web.Controllers
         [HttpPost]
         public IActionResult Add(AddStudentViewModel viewModel)
         {
-            return View();
+            // return View(); what the video said
+
+            if (ModelState.IsValid) {
+                return View("AddConfirmation", viewModel);
+            }
+
+            return View(viewModel);
         }
     }
 }
