@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\vidly_MVC.bundle.scp.css"
     },
     {
+      "Id": "H:\\vscode\\vidly_MVC\\wwwroot\\css\\morph.css",
+      "PackagePath": "staticwebassets\\css\\morph.css"
+    },
+    {
       "Id": "H:\\vscode\\vidly_MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

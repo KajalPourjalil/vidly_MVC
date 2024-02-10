@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I52qRK6vSNLauVzSE645HpGgJdo9Ub7+Ejfw7fShQD0=",
+  "Hash": "X4w3+hGDj5UDMdBo5UFMkySKGI+gYqETOxYBxzZr04E=",
   "Source": "vidly_MVC",
   "BasePath": "_content/vidly_MVC",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "H:\\vscode\\vidly_MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\vidly_MVC.bundle.scp.css"
+    },
+    {
+      "Identity": "H:\\vscode\\vidly_MVC\\wwwroot\\css\\morph.css",
+      "SourceId": "vidly_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\vscode\\vidly_MVC\\wwwroot\\",
+      "BasePath": "_content/vidly_MVC",
+      "RelativePath": "css/morph.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\morph.css"
     },
     {
       "Identity": "H:\\vscode\\vidly_MVC\\wwwroot\\css\\site.css",
