@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using StudentPortal.Web.Models.Entities;
 using vidly_MVC;
 
@@ -32,13 +33,24 @@ namespace StudentPortal.Web.Controllers
 
             await dbContext.Students.AddAsync(student);
             await dbContext.SaveChangesAsync();
-            // return View(); what the video said
+            
 
+            //added myself
             if (ModelState.IsValid) {
                 return View("AddConfirmation", viewModel);
             }
 
+
             return View(viewModel);
+        }
+
+        //starting the list functionality to list all the students
+        [HttpGet]
+        public async Task<IActionResult> List() 
+        {
+            var students = await dbContext.Students.ToListAsync();
+
+            return View(students);
         }
     }
 }
