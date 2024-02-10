@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using StudentPortal.Web.Models.Entities;
+using StudentPortal.Web.Models;
 using vidly_MVC;
 
 namespace StudentPortal.Web.Controllers

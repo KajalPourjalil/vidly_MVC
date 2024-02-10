@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StudentPortal.Web.Models;
 
 namespace vidly_MVC;
 

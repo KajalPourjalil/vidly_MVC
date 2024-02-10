@@ -1,4 +1,4 @@
-namespace StudentPortal.Web.Models.Entities
+namespace StudentPortal.Web.Models
 {
     public class AddStudentViewModel
     {

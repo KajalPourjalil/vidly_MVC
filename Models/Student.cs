@@ -1,6 +1,9 @@
-﻿namespace vidly_MVC;
+﻿// namespace vidly_MVC;
+using vidly_MVC;
 
-public class Student
+namespace StudentPortal.Web.Models
+{
+    public class Student
 {
     public Guid Id { get; set; }
 
@@ -13,3 +16,6 @@ public class Student
     public bool Subscribed { get; set; }
 
 }
+}
+
+
