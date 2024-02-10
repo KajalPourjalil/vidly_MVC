@@ -1,10 +1,18 @@
 using Microsoft.AspNetCore.Mvc;
 using StudentPortal.Web.Models.Entities;
+using vidly_MVC;
 
 namespace StudentPortal.Web.Controllers
 {
     public class StudentsController : Controller
     {
+        private readonly ApplicationDbContext dbContext;
+        public StudentsController(ApplicationDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
+
+
         [HttpGet]
         public IActionResult Add()
         {
@@ -12,8 +20,18 @@ namespace StudentPortal.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(AddStudentViewModel viewModel)
+        public async Task<IActionResult> Add(AddStudentViewModel viewModel)
         {
+            var student = new Student
+            {
+                Name = viewModel.Name,
+                Email = viewModel.Email,
+                Phone = viewModel.Phone,
+                Subscribed = viewModel.Subscribed
+            };
+
+            await dbContext.Students.AddAsync(student);
+            await dbContext.SaveChangesAsync();
             // return View(); what the video said
 
             if (ModelState.IsValid) {
